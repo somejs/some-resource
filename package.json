@@ -1,0 +1,23 @@
+{
+  "name": "some-resource",
+  "version": "0.0.1",
+  "description": "some resource",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somejs/some-resource.git"
+  },
+  "main": "./lib/Resource/",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "license": "MIT"
+}
